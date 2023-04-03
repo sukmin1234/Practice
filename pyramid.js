@@ -1,28 +1,17 @@
-//피라미드
-for (let i = 0; i <= 5; i++) {
-  for (let j = 0; j < i; j++) {
-    // document.write("*");
-    process.stdout.write("*");
-  }
-  // document.write("<br>");
-  console.log("");
+for(let i = 0; i<10; i++){
+    for(let j = 0; j<i; j++){
+        process.stdout.write("*")
+    }
+    console.log()
 }
 
-//피라미드 reverse
-for (let i = 0; i <= 5; i++) {
-  for (let j = 4; j > i; j--) {
-    // document.write("*");
-    process.stdout.write("*");
-  }
-  // document.write("<br>");
-  console.log("");
-}
 
-// 고수
-// console.log("*");
-// console.log("**");
-// console.log("***");
-// console.log("****");
-// console.log("***");
-// console.log("**");
-// console.log("*");
+for (let i = 0; i < 10; i++) {
+    for (let j = 10; j > i; j--) {
+      process.stdout.write("*");
+    }
+    
+    console.log();
+  }
+
+  
